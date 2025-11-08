@@ -137,3 +137,28 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# Vue 编译产物
+dist/
+dist-ssr/
+*.local
+
+# Vue CLI 相关
+.eslintcache
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+vue.config.js
+package-lock.json
+
+# Vite 相关
+.vite/
+*.html
+.prettierrc
+.eslintrc.js
+
+# IDE 配置（避免提交本地IDE的配置文件）
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
